@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/output_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="Output"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/one_button_alert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Set value = 1" />
+
+    <Button
+        android:id="@+id/two_button_alert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Set value = 2" />
+
+    <Button
+        android:id="@+id/three_button_alert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Three Button Alert Dialog" />
+
+    <Button
+        android:id="@+id/text_input_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Set own value" />
+
+    <Button
+        android:id="@+id/list_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Set among offers" />
+
+    <Button
+        android:id="@+id/full_screen_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Set value by history" />
+
+    <Button
+        android:id="@+id/date_picker_alert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Set by date/time" />
+
+</LinearLayout>
